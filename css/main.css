@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/rawpixel-679094-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -109,7 +109,7 @@ body {
 .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -118,25 +118,38 @@ body {
 #content {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #222;
-    background:rgba(0,0,0,0.7);
+    align-items: flex-start;
+    background: rgb(225, 149, 154);
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 1.25em;
     line-height: 1.5em;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
 }
 
 #content p span {
     font-family: 'Lora', sans-serif;
 }
 
-
+#secondary {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(205, 165, 168);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    border-radius: 0px;
+    padding: 0px 30px;
+    width: 400px;
+    height: 200px;
+}
 
 
 
